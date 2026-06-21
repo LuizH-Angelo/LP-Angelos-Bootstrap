@@ -64,14 +64,15 @@
 
 .container-profs {
     display: grid;
-    grid-template-columns: 230px 230px; 
+    grid-template-columns: repeat(2, minmax(120px, 230px));
     justify-content: center;
-    gap: 60px;
+    gap: 40px;
     margin-top: 85px;
 }
 
 .card-profs img {
     width: 100%;
+    max-width: 230px;
     height: 230px;
     object-fit: cover;
     border-radius: 15px;
@@ -83,3 +84,4 @@
         0 0 10px var(--yellow), 
         0 0 20px var(--yellow);
 }
+

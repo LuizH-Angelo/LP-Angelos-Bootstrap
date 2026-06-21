@@ -7,7 +7,7 @@
     background-color: var(--background);
     padding: 80px 20px;
     color: white;  
-    min-height: 100vh;
+    min-height: 90vh;
     display: flex;
     align-items: center; 
 }
@@ -30,7 +30,7 @@
 }
 
 .quem-somos-conteudo h2 {
-    font-size: 50px;
+    font-size: 60px;
     font-weight: 700;
     margin: 10px 0 20px 0;
     color: black;
